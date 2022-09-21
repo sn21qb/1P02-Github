@@ -1,11 +1,11 @@
-<body>
+body
 
 p{
   font-style: arial;
 }
 
 .cap{
-  text-transition: uppercase;
+  text-transform: uppercase;
 }
 
 img{
