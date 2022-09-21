@@ -1,0 +1,13 @@
+<body>
+
+p{
+  font-style: arial;
+}
+
+.cap{
+  text-transition: uppercase;
+}
+
+img{
+  border:1px solid black;
+}
