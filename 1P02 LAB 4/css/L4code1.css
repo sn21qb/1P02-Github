@@ -2,6 +2,21 @@ body{
     background-color:blue;
   }
 
-.box1{
-    margin:10px;
+div{
+    margin: 100px 150px 300px 150px;
+    padding: 20px;
+    border: 6px black solid;
+}
+
+img{
+  border: 2px dashed yellow;
+  padding: 26px; 
+}
+
+p{
+  margin:20px;
+  margin-bottom: 25px;
+  padding: 7px;
+  border: 2px dashed green;
+  color:red;
 }
