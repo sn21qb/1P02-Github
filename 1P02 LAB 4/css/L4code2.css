@@ -1,0 +1,46 @@
+
+.firstbox{
+    margin: 6px 15px 1px 15px;
+    padding-top: 200px;
+    padding-bottom: 27px;
+    padding-left: 780px;
+    border: 3px purple dotted;
+}
+
+/*img{
+  border: 2px dashed yellow;
+  padding: 26px;
+}*/
+
+.boxtxt{
+  margin:50px 100px 1px 100px;
+  padding: 7px 50px 1px 100;
+}
+
+.small{
+  margin: 1px 15px 30px 15px;
+  padding-top: 1px;
+  padding-bottom: 20px;
+  padding-left: 900px;
+  font-size: 11px;
+  color:green;
+}
+
+.bigtxt{
+  margin: 1px 15px 10px 15px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  padding-left: 1px;
+  font-size: 11px;
+  color: orange;
+  font-size: 20px
+}
+
+.xsmtxt{
+  margin: 1px 15px 700px 15px;
+  padding-top: 1px;
+  padding-bottom: 15px;
+  padding-left: 1730px;
+  color: purple;
+  font-size: 9px
+}
