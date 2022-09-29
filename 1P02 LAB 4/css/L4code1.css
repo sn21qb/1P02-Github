@@ -1,6 +1,6 @@
 body{
     background-color:blue;
-  }
+}
 
 div{
     margin: 100px 150px 300px 150px;
@@ -11,11 +11,15 @@ div{
 img{
   border: 2px dashed yellow;
   padding: 26px; 
+  margin-left: -20px;
+  margin-bottom: -20px;
 }
 
 p{
   margin:20px;
   margin-bottom: 25px;
+  margin-top: 5px;
+  margin-left: -2px;
   padding: 7px;
   border: 2px dashed green;
   color:red;
