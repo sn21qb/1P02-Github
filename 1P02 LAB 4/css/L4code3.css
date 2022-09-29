@@ -1,0 +1,37 @@
+.firstbox{
+    background-color: green;
+    margin: 6px 5px 1px 5px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    padding-left: 20px;
+    /*border: 3px purple dotted;*/
+}
+
+/*img{
+  border: 2px dashed yellow;
+  padding: 26px;
+}*/
+
+.boxtxt{
+  margin:50px 100px 1px 1px;
+  padding: 7px 50px 1px 1px;
+}
+
+.small{
+  margin: 1px 15px 10px 2px;
+  padding-top: 10px;
+  padding-bottom: 25px;
+  padding-left: 1px;
+  font-size: 16px;
+  border: 5px black dotted;
+}
+
+.bigtxt{
+  margin: 1px 15px 50px 15px;
+  padding-top: 1px;
+  padding-bottom: 50px;
+  padding-left: 1px;
+  font-size: 11px;
+  color: red;
+  font-size: 7px;
+}
