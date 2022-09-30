@@ -36,6 +36,16 @@
   font-size: 20px
 }
 
+.move{
+  color: red;
+  vertical-align: 20px;
+}
+
+.up{
+  color: yellow;
+  font-style: italic;
+}
+
 .xsmtxt{
   margin: 1px 15px 700px 15px;
   padding-top: 1px;
