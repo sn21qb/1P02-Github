@@ -1,3 +1,7 @@
+* {
+	margin: 0;
+}
+
 body{
 	color:blue;
 	background-color:green;
@@ -6,7 +10,7 @@ body{
 
 #wrapper{
 	width:1000px;
-	height:-5000px;
+	height:920px;
 	margin:0 auto;
 	background-color:white;
 }
@@ -16,6 +20,8 @@ body{
 	text-align:center;
 	color: black;
 	background-color: red;
+	font-weight: bold;
+	font-size: 24px;
 		
 }
 
@@ -28,6 +34,8 @@ body{
 	background-color: pink;
 	font-size: 23px;
 	padding-top: 25px;
+	color: black;
+	font-weight: bold;
 }
 #rightbody{
 	float:right;
@@ -38,18 +46,28 @@ body{
 	padding-top: 25px;
 	background-color: orange;
 	font-size: 23px;
+	color: black;
+	font-weight: bold;
 }
 
 #content{
 	text-align:left;
-	height:100px;
-	width: 1500px;
+	height:670px;
+	width: 1000px;
 	clear: both;
+	background: blue;
+	color: black;
+	font-size: 23px;
+	font-weight: bold;
 }
 
-#bottom{
-	text-align:center;
-	height:50px;
+#footer{
+	text-align:left;
+	height:60px;
 	clear:both;
+	color: black;
+	background: yellow;
+	font-size: 23px;
+	font-weight: bold;
 
 }
