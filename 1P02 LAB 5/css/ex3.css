@@ -3,10 +3,9 @@ body{
 	background-color:white;
 }
 
-
 #wrapper{
 	width:1900px;
-	height: 1000px;
+	height: 981px;
 	margin:0 auto;
 	background-color:green;
 }
@@ -14,31 +13,43 @@ body{
 #header{
 	height:50px;
 	text-align:center;
-		
 }
 
 #leftbody{
 	float:left;
-	width:190px;
-	height: 500px;
+	width:352px;
+	height: 320px;
 	background-color:blue;
 	padding:5px;
-	padding-left: 100px;
-
+	margin-left: 300px;
+	margin-top:14px;
+	padding-top: 25px;
+	color:black;
+	font-size: 20px;
 }
+
 #rightbody{
 	float:right;
-	width:540px;
-	height:500px;
+	width:350px;
+	height:320px;
 	background:red;
 	padding:5px;
+	margin-right: 300px;
+	margin-top: 14px;
+	font-size: 20px;
+	color:black;
+	padding-top: 25px;
 }
+
 
 #bottom{
 	text-align:center;
-	height:50px;
-	width: 50px;
+	height:360px;
+	width: 365px;
 	background: yellow;
 	clear:both;
-
+	margin: 0 auto;
+	text-align: left;
+	font-size: 20px;
+  color:black;
 }

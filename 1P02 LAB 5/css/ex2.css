@@ -22,7 +22,7 @@ body{
 	background-color: red;
 	font-weight: bold;
 	font-size: 24px;
-		
+
 }
 
 #leftbody{
@@ -52,7 +52,7 @@ body{
 
 #content{
 	text-align:left;
-	height:670px;
+	height:740px;
 	width: 1000px;
 	clear: both;
 	background: blue;
