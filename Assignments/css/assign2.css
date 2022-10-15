@@ -1,0 +1,43 @@
+.blue{
+  color:blue;
+}
+
+.bigtxt{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.font{
+  font-style: italic;
+}
+
+.upper{
+  text-transform: uppercase;
+}
+
+.pos{
+  position:fixed;
+}
+
+h1,h2{
+  color:green;
+}
+
+p > span{
+    color:orange;
+}
+
+#rightbody{
+  float:right;
+	width:500px;
+	height:80px;
+	background:#FFFF99;
+	padding:5px;
+	padding-top: 25px;
+  padding-right: 40px;
+	background-color: orange;
+	font-size: 10px;
+	color: black;
+	font-weight: bold;
+  margin-right: 1000px;
+}
