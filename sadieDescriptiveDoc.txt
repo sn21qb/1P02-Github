@@ -32,4 +32,16 @@ Alignment: N/A
 Media: N/A
 Interactivity: N/A
 
-Item one will have a dark grey background with white text. On the left side, there will be the restaurant logo followed by the main header and the second header. On the right side will be navigation where it will be interactive: home, menu, contact, support, socials, what’s new. Item two, the left body of the page will have a white background and will be the menu of the restaurant. Viewers will be able to see the rest of the menu items by a scroll bar on the left side. This is for a quick access to the menu. To have a larger view of the whole entire menu, the viewer must click on the menu in the navigation part of the website. There will be pictures of the dishes on the right side and the names of the dishes, followed by a short description on the left side. Item three, the right body of the page will also be white. Item three will be the reviews of the customers. Viewers are able to see the rest of the reviews through a scroll bar that is right underneath the reviews. After the review section, this is where the restaurant hours will be posted. The background will be white, and it will say each day when the restaurant’s availability time is. On each side of the post, there will be photos of the two locations where the restaurant is located. Item 4, the background of the footer will be dark grey. 
+Item one will have a dark grey background with white text. On the left side, there will be the restaurant
+logo followed by the main header and the second header. On the right side will be navigation where it will
+be interactive: home, menu, contact, support, socials, what’s new. Item two, the left body of the page will
+have a white background and will be the menu of the restaurant. Viewers will be able to see the rest of the
+menu items by a scroll bar on the left side. This is for a quick access to the menu. To have a larger view of
+the whole entire menu, the viewer must click on the menu in the navigation part of the website. There will be
+pictures of the dishes on the right side and the names of the dishes, followed by a short description on the
+left side. Item three, the right body of the page will also be white. Item three will be the reviews of the
+customers. Viewers are able to see the rest of the reviews through a scroll bar that is right underneath
+the reviews. After the review section, this is where the restaurant hours will be posted. The background
+will be white, and it will say each day when the restaurant’s availability time is. On each side of the
+post, there will be photos of the two locations where the restaurant is located. Item 4, the background
+of the footer will be dark grey.
