@@ -1,9 +1,20 @@
-//This will output when the page loads
-document.write("Output Zero Here");
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 
-//This will output when a button is pressed
-function theRest(){
-	document.getElementById("output1").innerHTML="Output One Here";
-	document.getElementById("output2").innerHTML="Output Two Here";
-	document.getElementById("output3").innerHTML="Output Three Here";
-}
+<head>
+	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+	<title>Advanced Example</title>
+	<link rel="stylesheet" type="text/css" href= "styles3.css" />
+	<script type="text/javascript" src="js/script3.js"></script>
+
+</head>
+
+<body>
+	<p><button type="button" onclick="theRest()">Print the last one</button></p>
+
+	<p id="output1"></p>
+	<p id="output2"></p>
+	<p id="output3"></p>
+</body>
+
+</html>
