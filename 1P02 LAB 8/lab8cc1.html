@@ -4,21 +4,18 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
 	<title>Exercise 1</title>
-	<link href= "styles.css" rel="stylesheet" type="text/css" />
-	<script type="text/javascript" src="script.js"></script>
+	<link rel="stylesheet" type="text/css" href= "styles1.css" />
+	<script type="text/javascript" src="script1.js"></script>
 
 </head>
     <body>
 
         <p id="output">Output here</p>
-        <button id="button" onclick="pushMe()s">Push me</button>
+        <button type="button" onclick="pushMe()">Push me</button>
 
-        <script>
-            document.getElementById("button").addEventListener("click", pushMe);
 
-            function pushMe() {
-                document.getElementById("output").innerHTML = "Hello";
-            }
-        </script>
     </body>
+
+		<script type="text/javascript" src="script.js"></script>
+
 </html>
