@@ -8,6 +8,7 @@ function stopTime(){
   var stoptime = stop.getTime();
   console.log(stop);
   var difftime = (stoptime-starttime);
-  var myAlert = alert("You have been on the page for:" + difftime);
+
+  var myAlert = alert("You have been on the page for: " + (difftime/1200).toFixed(2) + " seconds");
   console.log(myAlert)
 }
