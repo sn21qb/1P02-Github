@@ -268,9 +268,13 @@ padding-left: 270px;
 }
 
 #his{
-  float: right;
+  float: left;
   margin-right: 30px;
   margin-top: 25px;
+  margin-left: 12px;
+  font-size: 20px;
+  margin-bottom:100px;
+  padding-bottom: 20px;
 }
 
 
@@ -288,15 +292,20 @@ padding-left: 270px;
 }
 
 #insta{
-	padding-left: 500px;
+	padding-left: 917px;
+	padding-top:12px;
 }
 
 #twitter{
-	padding-left: 600px;
-	padding-bottom: 100px;
+
+	padding-left: 980px;
+	padding-top:-600px;
+	margin-top:-50px;
 }
 
 #fb{
-	padding-left: 800px;
-	padding-bottom: -100px;
+	float: right;
+	padding-right: 20px;
+	margin-top:-50px;
+	padding-top:-2002px;
 }
