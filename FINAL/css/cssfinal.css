@@ -22,7 +22,7 @@ body{
 	height:120px;
 	text-align:left;
 	color: black;
-	background-color:lightblue;
+	background-color:lightskyblue;
 	font-weight: bold;
 	font-size: 17px;
     padding-left: 100px;
@@ -95,7 +95,7 @@ li {
 	font-weight: bold;
   	padding-left:30px;
   	font-size: 30px;
-  	background-color: lightskyblue	;
+  	background-color:lightblue	;
 }
 
 #text{
@@ -111,7 +111,7 @@ li {
   	padding-top: 3px;
  	font-size: 20px;
 	padding-right: 50px;
-  	background-color: lightskyblue	;
+  	background-color: lightblue	;
 }
 
 #rightbody{
@@ -149,15 +149,16 @@ li {
 
 #content{
 	text-align:left;
-	height:300px;
+	height:400px;
 	width: 1400px;
 	clear: both;
 	background: blue;
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
-  background-color: silver;
-  margin-bottom:100px;
+	margin-top: 20px;
+  background-color: lightyellow;
+
   border: 10px;
 }
 
@@ -190,28 +191,54 @@ li {
 
 #platform{
 	float:left;
-	padding:5px;
-	margin-left: -240px;
-	margin-top:20px;
+	padding:10px;
+	margin-left: -260px;
+	margin-top:50px;
 	color:black;
 	font-size: 30px;
   padding-left: 800px;
-  
+
 
 }
 
-
-#newm{
+#computer{
 	float:left;
-	margin-left: 100px;
-  margin-top: -180px;
-  font-size: 40px;
+	padding:10px;
+	margin-left: -150px;
+	margin-top:200px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 800px;
+}
+
+
+#mobile{
+	float:left;
+	padding:10px;
+	margin-left: -620px;
+	margin-top:50px;
+	color:blue;
+	font-size: 30px;
 
 }
 
-#pc{
-	margin-left: -660px;
-	margin-top: -100px;
+#console{
+	float:left;
+	padding:10px;
+	margin-left: 270px;
+	margin-top:-50px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 800px;
+}
+
+
+
+#computerimg{
+	margin-left: -780px;
+	margin-top: -280px;
+	padding-top: 260px;
+
 
 }
 
@@ -221,12 +248,12 @@ li {
 }
 
 
-#mobile{
+#mobileimg{
 	margin-left: 240px;
 	margin-top: 10px;
 }
 
-#console{
+#consoleimg{
 	margin-left: 240px;
 	margin-top: 50px;
 }
@@ -250,12 +277,26 @@ padding-left: 270px;
 
 #footer{
 	text-align:left;
-	height:76px;
+	height:79px;
 	clear:both;
 	color: black;
 	background: yellow;
 	font-size: 23px;
 	font-weight: bold;
-  background-color: red;
+  background-color:lightskyblue;
 
+}
+
+#insta{
+	padding-left: 500px;
+}
+
+#twitter{
+	padding-left: 600px;
+	padding-bottom: 100px;
+}
+
+#fb{
+	padding-left: 800px;
+	padding-bottom: -100px;
 }
