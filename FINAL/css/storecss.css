@@ -59,11 +59,13 @@ li {
   margin-bottom:-100px;
 }
 
+#shop{
+	font-size: 35px;
+	color: red;
+}
+
 #sign{
   	float:right;
-    /*margin-bottom:-100px;
-    margin-top:80px;
-    margin-right: 150px;*/
     margin: 0px;
     padding: 0px;
     padding-right: 50px;
