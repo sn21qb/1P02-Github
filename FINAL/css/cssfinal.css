@@ -88,33 +88,30 @@ li {
 	float:left;
 	width:295px;
 	height: 470px;
-	background-color:#FFFFCC;
 	padding:5px;
-	background-color: pink;
 	font-size: 23px;
 	padding-top: 25px;
 	color: black;
 	font-weight: bold;
-  padding-left: 90px;
-  font-size: 30px;
-  background-color: #FFFDD0	;
+  	padding-left:30px;
+  	font-size: 30px;
+  	background-color: lightskyblue	;
 }
 
 #text{
 	float:left;
 	width:295px;
 	height: 200px;
-	background-color:#FFFFCC;
 	padding:5px;
-	background-color: pink;
 	font-size: 23px;
-	padding-top: 25px;
+	padding-top: -25px;
 	color: black;
 	font-weight: bold;
-  padding-left: -3000px;
-  padding-top: 60px;
-  font-size: 20px;
-  background-color: #FFFDD0	;
+ 	padding-left: -50px;
+  	padding-top: 3px;
+ 	font-size: 20px;
+	padding-right: 50px;
+  	background-color: lightskyblue	;
 }
 
 #rightbody{
@@ -140,19 +137,22 @@ li {
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
-  background-color:white	;
+  background-color:white;
+  margin-bottom:100px;
 }
 
 #menu{
-  margin-top: 500px;
+  margin-top: 520px;
+  margin-left:500px;
 	text-align:left;
-	height:70px;
-	width: 1400px;
+	height:50px;
+	width: 420px;
 	clear: both;
 	background: grey;
 	color: black;
-	font-size: 43px;
+	font-size: 29px;
 	font-weight: bold;
+	padding-top:20px;
   text-align:center;
   background-color: red;
 }
@@ -161,7 +161,7 @@ li {
 	float:left;
 	padding:5px;
 	margin-left: -240px;
-	margin-top:20px;
+	margin-top:200px;
 	color:black;
 	font-size: 30px;
   padding-left: 800px;
@@ -176,22 +176,28 @@ li {
 
 }
 
-#coffee{
-}
-
-#coop{
-  margin-left: 450px;
-  margin-top:50px;
-}
-
-
-#iced{
-  padding-top: 37px;
-}
-
-#bae{
+#pc{
+	margin-left: -660px;
+	margin-top: 40px;
 
 }
+
+#mario{
+  margin-left: -80px;
+  margin-top: -25px;
+}
+
+
+#mobile{
+	margin-left: 240px;
+	margin-top: 50px;
+}
+
+#console{
+	margin-left: 240px;
+	margin-top: 50px;
+}
+
 
 #larrow{
 padding-left: 270px;
