@@ -134,10 +134,10 @@ li {
 .centered {
 	position: absolute;
 	top:40%;
-	left: 30%;
+	left: 80%;
 	transform: translate(-17%, -50%);
-	font-size: 40px;
-	padding-left:20px;
+	font-size: 10px;
+	padding-left:80px;
 	font-weight: 400;
 }
 
@@ -309,3 +309,4 @@ padding-left: 270px;
 	margin-top:-50px;
 	padding-top:-2002px;
 }
+
