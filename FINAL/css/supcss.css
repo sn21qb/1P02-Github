@@ -200,11 +200,11 @@ li {
 #mobile{
 	float:left;
 	padding:10px;
-	margin-left: -620px;
+	margin-left: -20px;
 	margin-top:50px;
 	color:blue;
 	font-size: 30px;
-	margin-top: 200px;
+
 
 }
 
@@ -222,7 +222,7 @@ li {
 
 #computerimg{
 	margin-left: -780px;
-	margin-top: -280px;
+	margin-top: -70px;
 	padding-top: 260px;
 
 
