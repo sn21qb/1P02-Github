@@ -80,6 +80,10 @@ li {
 	font-size: 20px;
 }
 
+#home{
+	font-size: 36px;
+}
+
 #headertxt{
 	padding-top:30px;
 }
@@ -249,7 +253,7 @@ li {
 
 
 #mobileimg{
-	margin-left: 240px;
+	margin-left: 250px;
 	margin-top: 10px;
 }
 

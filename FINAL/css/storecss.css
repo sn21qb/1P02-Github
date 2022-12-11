@@ -21,7 +21,7 @@ body{
 	height:120px;
 	text-align:left;
 	color: black;
-	background-color:lightblue;
+	background-color:lightskyblue;
 	font-weight: bold;
 	font-size: 17px;
     padding-left: 100px;
@@ -59,13 +59,11 @@ li {
   margin-bottom:-100px;
 }
 
-#shop{
-	font-size: 35px;
-	color: red;
-}
-
 #sign{
   	float:right;
+    /*margin-bottom:-100px;
+    margin-top:80px;
+    margin-right: 150px;*/
     margin: 0px;
     padding: 0px;
     padding-right: 50px;
@@ -81,6 +79,10 @@ li {
 	font-size: 20px;
 }
 
+#bigsupp{
+	font-size: 36px;
+}
+
 #headertxt{
 	padding-top:30px;
 }
@@ -89,33 +91,30 @@ li {
 	float:left;
 	width:295px;
 	height: 470px;
-	background-color:#FFFFCC;
 	padding:5px;
-	background-color: pink;
 	font-size: 23px;
 	padding-top: 25px;
 	color: black;
 	font-weight: bold;
-  padding-left: 90px;
-  font-size: 30px;
-  background-color: #FFFDD0	;
+  	padding-left:30px;
+  	font-size: 30px;
+  	background-color:lightblue	;
 }
 
 #text{
 	float:left;
 	width:295px;
 	height: 200px;
-	background-color:#FFFFCC;
 	padding:5px;
-	background-color: pink;
 	font-size: 23px;
-	padding-top: 25px;
+	padding-top: -25px;
 	color: black;
 	font-weight: bold;
-  padding-left: -3000px;
-  padding-top: 60px;
-  font-size: 20px;
-  background-color: #FFFDD0	;
+ 	padding-left: -50px;
+  	padding-top: 3px;
+ 	font-size: 20px;
+	padding-right: 50px;
+  	background-color: lightblue	;
 }
 
 #rightbody{
@@ -129,31 +128,56 @@ li {
 	font-size: 23px;
 	color: black;
 	font-weight: bold;
-  background-color:white	;
+ 	background-color:white;
+ 	position: relative;
+ 	text-align: center;
+	color: white;
 }
+
+.centered {
+	position: absolute;
+	top:40%;
+	left: 30%;
+	transform: translate(-17%, -50%);
+	font-size: 40px;
+	padding-left:20px;
+	font-weight: 400;
+}
+
+.down{
+	color: lightgreen;
+	font-weight: bold;
+}
+
 
 #content{
 	text-align:left;
-	height:220px;
+	height:400px;
 	width: 1400px;
 	clear: both;
 	background: blue;
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
-  background-color:white	;
+	margin-top: 20px;
+  background-color: lightyellow;
+
+  border: 10px;
 }
 
 #menu{
-  margin-top: 500px;
+  margin-top: 520px;
+  margin-left:500px;
 	text-align:left;
-	height:70px;
-	width: 1400px;
+	height:50px;
+	width: 420px;
 	clear: both;
 	background: grey;
 	color: black;
-	font-size: 43px;
+	font-size: 29px;
 	font-weight: bold;
+	padding-top:20px;
+
   text-align:center;
   background-color: red;
 }
@@ -162,37 +186,81 @@ li {
 	float:left;
 	padding:5px;
 	margin-left: -240px;
-	margin-top:20px;
+	margin-top:200px;
+	color:black;
+	font-size: 30px;
+  padding-left: 800px;
+}
+
+#platform{
+	float:left;
+	padding:10px;
+	margin-left: -260px;
+	margin-top:50px;
 	color:black;
 	font-size: 30px;
   padding-left: 800px;
 
+
 }
 
-#newm{
+#computer{
 	float:left;
-	margin-left: 100px;
-  margin-top: -180px;
-  font-size: 40px;
-
-}
-
-#coffee{
-}
-
-#coop{
-  margin-left: 450px;
-  margin-top:50px;
+	padding:10px;
+	margin-left: -150px;
+	margin-top:200px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 800px;
 }
 
 
-#iced{
-  padding-top: 37px;
+#mobile{
+	float:left;
+	padding:10px;
+	margin-left: -620px;
+	margin-top:50px;
+	color:blue;
+	font-size: 30px;
+
 }
 
-#bae{
+#console{
+	float:left;
+	padding:10px;
+	margin-left: 270px;
+	margin-top:-50px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 800px;
+}
+
+
+
+#computerimg{
+	margin-left: -780px;
+	margin-top: -280px;
+	padding-top: 260px;
+
 
 }
+
+#mario{
+  margin-left: -80px;
+  margin-top: -25px;
+}
+
+
+#mobileimg{
+	margin-left: 250px;
+	margin-top: 10px;
+}
+
+#consoleimg{
+	margin-left: 240px;
+	margin-top: 50px;
+}
+
 
 #larrow{
 padding-left: 270px;
@@ -203,21 +271,45 @@ padding-left: 270px;
 }
 
 #his{
-  float: right;
+  float: left;
   margin-right: 30px;
   margin-top: 25px;
+  margin-left: 12px;
+  font-size: 20px;
+  margin-bottom:100px;
+  padding-bottom: 20px;
 }
 
 
 
 #footer{
 	text-align:left;
-	height:76px;
+	height:79px;
 	clear:both;
 	color: black;
 	background: yellow;
 	font-size: 23px;
 	font-weight: bold;
-  background-color: red;
+  background-color:lightskyblue;
 
 }
+
+#insta{
+	padding-left: 917px;
+	padding-top:12px;
+}
+
+#twitter{
+
+	padding-left: 980px;
+	padding-top:-600px;
+	margin-top:-50px;
+}
+
+#fb{
+	float: right;
+	padding-right: 20px;
+	margin-top:-50px;
+	padding-top:-2002px;
+}
+

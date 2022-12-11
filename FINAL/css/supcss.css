@@ -105,11 +105,27 @@ li {
 }
 
 
+#contact2{
+	float:left;
+	padding:10px;
+	margin-top:65px;
+	color:black;
+	font-size: 40px;
+  padding-left: 130px;
+}
+
+#contact1{
+	padding-left: 170px;
+	padding-top: 40px;
+}
+
 
 .down{
 	color: lightgreen;
 	font-weight: bold;
 }
+
+
 
 #content1{
 	text-align:left;
@@ -120,7 +136,6 @@ li {
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
-	margin-top: 20px;
 	margin-left: -100px;
 	background-color: mistyrose;
 
@@ -128,8 +143,11 @@ li {
 }
 
 #search{
-	margin-top:-150px;
+	padding-top: -200px;
 	margin-right: -200px;
+	padding-bottom: 200px;
+	padding-left: 60px;
+
 }
 
 #content2{
@@ -142,25 +160,13 @@ li {
 	font-weight: bold;
 	margin-top: -200px;
 	margin-left: -100px;
+	padding-bottom:60px;
   background-color: lavenderblush;
   height: 600px;
 }
 
-#menu{
-  margin-top: 520px;
-  margin-left:500px;
-	text-align:left;
-	height:50px;
-	width: 420px;
-	clear: both;
-	background: grey;
-	color: black;
-	font-size: 29px;
-	font-weight: bold;
-	padding-top:20px;
-
-  text-align:center;
-  background-color: red;
+#support{
+	font-size: 36px;
 }
 
 #menu1{
@@ -176,73 +182,95 @@ li {
 #help{
 	float:left;
 	padding:10px;
-	margin-left: -260px;
+	margin-left: -400px;
+	margin-top:70px;
+	color:black;
+	font-size: 40px;
+  padding-left: 860px;
+}
+
+#view{
+	float:left;
+	padding:10px;
+	margin-left: -95px;
 	margin-top:50px;
 	color:black;
-	font-size: 30px;
-  padding-left: 800px;
-
-
+	font-size: 23px;
+  padding-left: 665px;
 }
 
 #computer{
 	float:left;
 	padding-bottom:100px;
 	padding:10px;
-	margin-left: -150px;
-	margin-top:200px;
+	margin-left: -155px;
+	margin-top:350px;
 	color:blue;
 	font-size: 30px;
-  padding-left: 800px;
+  padding-left: 665px;
+}
+
+#computerimg{
+	margin-left: -1099px;
+	margin-top: -200px;
+	padding-top: 270px;
+	padding-left: 50px;
+
 }
 
 
 #mobile{
 	float:left;
 	padding:10px;
-	margin-left: -20px;
-	margin-top:50px;
+	margin-left: -430px;
+	margin-top:-19px;
 	color:blue;
 	font-size: 30px;
-
-
-}
-
-#console{
-	float:left;
-	padding:10px;
-	margin-left: 270px;
-	margin-top:-50px;
-	color:blue;
-	font-size: 30px;
-  padding-left: 800px;
-}
-
-
-
-#computerimg{
-	margin-left: -780px;
-	margin-top: -70px;
-	padding-top: 260px;
-
-
-}
-
-#mario{
-  margin-left: -80px;
-  margin-top: -25px;
 }
 
 
 #mobileimg{
-	margin-left: 240px;
-	margin-top: 10px;
+	margin-left: 100px;
+	margin-top: 0px;
+}
+
+
+#console{
+	float:left;
+	padding:10px;
+	margin-left: -55px;
+	margin-top: -90px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 900px;
 }
 
 #consoleimg{
-	margin-left: 240px;
-	margin-top: 50px;
+	margin-left: 100px;
+	margin-top: -85px;
 }
+
+#repimg{
+	margin-left: 1100px;
+	margin-top: -240px;
+}
+
+#report{
+	float:left;
+	padding:10px;
+	margin-left: 230px;
+	margin-top: -50px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 880px;
+}
+
+
+#mario{
+  margin-left: -80px;
+  margin-top: -30px;
+}
+
 
 
 #larrow{
