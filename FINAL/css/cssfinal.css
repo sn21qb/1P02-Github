@@ -135,9 +135,9 @@ li {
 	color: white;
 }
 
-.centered {
+.centered { /*https://medium.com/the-clever-dev/change-button-font-size-with-javascript-or-css-2-easy-ways-6cbdd0df9a04 accessed on 12/11/2022*/
 	position: absolute;
-	top:40%;
+	top:200px;
 	left: 30%;
 	transform: translate(-17%, -50%);
 	font-size: 40px;
@@ -145,11 +145,10 @@ li {
 	font-weight: 400;
 }
 
-.down{
-	color: lightgreen;
-	font-weight: bold;
+#download{
+	font-size: 30px;
+	color: black
 }
-
 
 #content{
 	text-align:left;
@@ -263,13 +262,6 @@ li {
 }
 
 
-#larrow{
-padding-left: 270px;
-}
-
-#rarrow{
-
-}
 
 #his{
   float: left;
@@ -312,5 +304,24 @@ padding-left: 270px;
 	padding-right: 20px;
 	margin-top:-50px;
 	padding-top:-2002px;
+}
+
+#imgid{
+	padding-top:-200px;
+	margin-top: -320px;
+	margin-left:640px;
+}
+
+#buttons{
+	margin-left: 500px;
+	margin-top: -20px;
+}
+
+a:hover{
+	color: red;
+}
+
+.hover:hover{
+	color: red;
 }
 

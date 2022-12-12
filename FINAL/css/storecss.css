@@ -21,13 +21,13 @@ body{
 	height:120px;
 	text-align:left;
 	color: black;
-	background-color:lightskyblue;
+	background-color: red;
 	font-weight: bold;
 	font-size: 17px;
     padding-left: 100px;
-
-	
 }
+
+
 
 h1{
     display: inline;
@@ -89,49 +89,39 @@ li {
 
 #leftbody{
 	float:left;
-	width:295px;
-	height: 470px;
-	padding:5px;
-	font-size: 23px;
-	padding-top: 25px;
+	width:280px;
+	height: 420px;
 	color: black;
 	font-weight: bold;
-  	padding-left:30px;
+  	padding-left:90px;
+	padding-top: 80px;
   	font-size: 30px;
-  	background-color:lightblue	;
+  	background-color:salmon;
 }
 
 #text{
 	float:left;
-	width:295px;
-	height: 200px;
-	padding:5px;
-	font-size: 23px;
-	padding-top: -25px;
+	padding-right: 20px;
 	color: black;
 	font-weight: bold;
- 	padding-left: -50px;
   	padding-top: 3px;
  	font-size: 20px;
-	padding-right: 50px;
-  	background-color: lightblue	;
+
+  	background-color: salmon;
 }
 
 #rightbody{
 	float:right;
 	width:1000px;
 	height:470px;
-	background:#FFFF99;
 	padding:5px;
 	padding-top: 25px;
-	background-color: orange;
 	font-size: 23px;
 	color: black;
-	font-weight: bold;
- 	background-color:white;
+	font-weight: 100px;
  	position: relative;
  	text-align: center;
-	color: white;
+
 }
 
 .centered {
@@ -150,7 +140,7 @@ li {
 }
 
 
-#content{
+#content1{
 	text-align:left;
 	height:400px;
 	width: 1400px;
@@ -163,6 +153,21 @@ li {
   background-color: lightyellow;
 
   border: 10px;
+}
+
+#content2{
+	background: blue;
+	height: 100px;
+}
+
+#content3{
+	background: red;
+	height: 100px;
+}
+
+#content4{
+	background: green;
+	height: 100px;
 }
 
 #menu{

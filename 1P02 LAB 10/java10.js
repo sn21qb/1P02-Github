@@ -29,5 +29,3 @@ function multi(){
     console.log(equal)
     document.getElementById("output").innerHTML= equal;
 }
-
-

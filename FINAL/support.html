@@ -4,7 +4,7 @@
 		<meta content="en-us" http-equiv="Content-Language" />
 		<title>Grabbling Hook</title>
 		<link href="css/supcss.css" type="text/css" rel="stylesheet"/>
-		<script type="text/javascript" src="js/javafinal.js"></script>
+		<script type="text/javascript" src="js/suppjs.js"></script>
 	</head>
 
 	<body>
@@ -34,8 +34,8 @@
 		 	</ul>
 		
 			
-				<span id = "sign">SIGN IN</span>
-				<span id = "login">LOGIN</span>
+			 <span id = "sign"><span class = "hover">SIGN IN</span></span>
+			 <span id = "login"><span class = "hover">LOGIN</span></span>
 			
 		</div>
 		
@@ -71,9 +71,11 @@
 		</div>
 
 		<div id="content1">
-			<span id = "contact2">Can't Find What You're Looking For? <br> <br> <a href="#link2">Click Here </a> To Chat With <br> <br> One of Our Team Members</span>
+			<span id = "contact2">Can't Find What You're Looking For? <br> <br> <a href="#link2"><button type = "button" value = "Click Me" onclick = "promptUp()"><span id="bigbutton">Click Here</span></button></a> To Chat With <br> <br> One of Our Team Members</span>
 			<img id= "contact1" src="http://cdn.onlinewebfonts.com/svg/img_529918.png" alt="contact" width = "300" height = "300"/>
-			
+			<button onclick="newWin()">Try it</button> <!--https://www.w3schools.com/jsref/tryit.asp?filename=tryjsref_win_open3-->
+		
+		
 		</div>
 		
 		<div id="footer">
