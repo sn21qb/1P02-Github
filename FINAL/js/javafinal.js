@@ -2,7 +2,7 @@ console.log("Hello World");
 
 function downLoad(){
   var myAlert = alert("You Have Successfully Downloaded Grabbling Hook");
-  console.log(myAlert)
+  console.log(myAlert);
 }
 
 

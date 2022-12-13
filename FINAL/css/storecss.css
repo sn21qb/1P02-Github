@@ -106,8 +106,6 @@ li {
 	font-weight: bold;
   	padding-top: -30px;
  	font-size: 30px;
-
-  	background-color: lightmispink;
 }
 
 #texttwo{
@@ -126,7 +124,7 @@ li {
 	padding-top: 25px;
 	font-size: 23px;
 	color: black;
-	font-weight: 100px;
+	font-weight: bold;
  	position: relative;
  	text-align: center;
 
