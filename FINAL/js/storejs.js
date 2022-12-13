@@ -5,7 +5,8 @@ function newWin() { /*https://www.w3schools.com/jsref/tryit.asp?filename=tryjsre
     myWindow.document.write("<p>Notice: Shipping will be delyaled by 5-15 days due to the holidays. We appericate your patience. \n\n For more information, please checkout our support page, thank you and have a nice holiday! </p>");
   }
 
-
+ /*https://www.includehelp.com/code-snippets/javascript-print-value-of-all-checked-selected-checkboxes.aspx accessed on 12/12/2022*/
+ 
 function printChecked() {
     var items = document.getElementsByName("acs");
     var selectedItems = "";
@@ -15,6 +16,7 @@ function printChecked() {
     alert(selectedItems);
 }
 
+/*https://www.includehelp.com/code-snippets/javascript-print-value-of-all-checked-selected-checkboxes.aspx accessed on 12/12/2022*/
 function promptUp() {
     var fieldOutput = prompt("Please Enter Your Email"); //users input
 
