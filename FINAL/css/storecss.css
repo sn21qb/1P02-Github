@@ -236,7 +236,7 @@ button{
 	padding-right: 360px;
 }
 
-#text3{
+.text3{
 	float:right;
 	padding-top:147px;
 	color:black;
@@ -245,7 +245,6 @@ button{
 	font-weight: bold;
 	text-align: center;
 }
-
 
 #text5{
 	float:right;
