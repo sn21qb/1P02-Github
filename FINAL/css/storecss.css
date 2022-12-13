@@ -90,11 +90,11 @@ li {
 #leftbody{
 	float:left;
 	width:280px;
-	height: 420px;
+	height: 460px;
 	color: black;
 	font-weight: bold;
-  	padding-left:90px;
-	padding-top: 80px;
+  	padding-left: 50px;
+	padding-top: 40px;
   	font-size: 30px;
   	background-color:salmon;
 }
@@ -104,11 +104,19 @@ li {
 	padding-right: 20px;
 	color: black;
 	font-weight: bold;
-  	padding-top: 3px;
- 	font-size: 20px;
+  	padding-top: -30px;
+ 	font-size: 30px;
 
-  	background-color: salmon;
+  	background-color: lightmispink;
 }
+
+#texttwo{
+	padding-bottom: -70px;
+	padding-right: 20px; 
+	font-size: 55px;
+
+}
+
 
 #rightbody{
 	float:right;
@@ -124,7 +132,7 @@ li {
 
 }
 
-.centered {
+#centered{
 	position: absolute;
 	top:40%;
 	left: 30%;
@@ -134,6 +142,17 @@ li {
 	font-weight: 400;
 }
 
+#but{   /*https://medium.com/the-clever-dev/change-button-font-size-with-javascript-or-css-2-easy-ways-6cbdd0df9a04 accessed on 12/11/2022*/
+
+	padding-top: -100px;
+
+}
+
+button{
+	margin-top:-36px;
+}
+
+
 .down{
 	color: lightgreen;
 	font-weight: bold;
@@ -142,32 +161,37 @@ li {
 
 #content1{
 	text-align:left;
-	height:400px;
+	height:320px;
 	width: 1400px;
 	clear: both;
 	background: blue;
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
-	margin-top: 20px;
-  background-color: lightyellow;
+  	background-color: peachpuff;
 
-  border: 10px;
 }
 
 #content2{
-	background: blue;
-	height: 100px;
+	background: papayawhip;
+	height:320px;
 }
 
 #content3{
-	background: red;
-	height: 100px;
+	background: peachpuff;
+	height: 320px;
 }
 
 #content4{
-	background: green;
-	height: 100px;
+	background: papayawhip;
+	height: 320px;
+}
+
+#content5{
+	padding-top:50px;
+	background: peachpuff;
+	height: 240px;
+	padding-left: 370px;
 }
 
 #menu{
@@ -197,84 +221,108 @@ li {
   padding-left: 800px;
 }
 
-#platform{
+
+#text1{
 	float:left;
-	padding:10px;
-	margin-left: -260px;
-	margin-top:50px;
+	padding-top:147px;
 	color:black;
 	font-size: 30px;
-  padding-left: 800px;
-
-
+	padding-left: 70px;
 }
 
-#computer{
-	float:left;
-	padding:10px;
-	margin-left: -150px;
-	margin-top:200px;
-	color:blue;
+#text2{
+	float:right;
+	padding-top:147px;
+	color:black;
 	font-size: 30px;
-  padding-left: 800px;
+	padding-right: 360px;
 }
 
-
-#mobile{
-	float:left;
-	padding:10px;
-	margin-left: -620px;
-	margin-top:50px;
-	color:blue;
+#text3{
+	float:right;
+	padding-top:147px;
+	color:black;
 	font-size: 30px;
-
+	padding-right: 520px;
+	font-weight: bold;
+	text-align: center;
 }
 
-#console{
-	float:left;
-	padding:10px;
-	margin-left: 270px;
-	margin-top:-50px;
-	color:blue;
+
+#text5{
+	float:right;
+	padding-top:147px;
+	color:black;
 	font-size: 30px;
-  padding-left: 800px;
+	padding-right: 380px;
+	font-weight: bold;
+	
 }
 
+#text6{
+	float:left;
+	padding-top:147px;
+	color:black;
+	font-size: 30px;
+	padding-left: 100px;
+	font-weight: bold;
+}
 
+#item1{
+	padding-top:40px;
+	padding-left: 50px;
+    padding-bottom: 20px;
 
-#computerimg{
-	margin-left: -780px;
-	margin-top: -280px;
-	padding-top: 260px;
+}
 
+#item2{
+
+	margin-top: -310px;
+	padding-left:1040px;
+}
+
+#item3{
+
+	margin-top: -270px;
+	padding-left:970px;
+}
+
+#item4{
+	padding-top:30px;
+	padding-left: 270px;
+    padding-bottom: 20px;
+
+}
+
+#item5{
+	padding-top:10px;
+	padding-left: 30px;
+    padding-bottom: 20px;
+}
+
+#item6{
+	margin-top: -300px;
+	padding-left:1040px;
+}
+
+#item7{
+
+	margin-top: -260px;
+	padding-left:970px;
+}
+
+#item8{
+	padding-top:70px;
+	padding-left: 270px;
+    padding-bottom: 20px;
 
 }
 
 #mario{
-  margin-left: -80px;
-  margin-top: -25px;
-}
-
-
-#mobileimg{
-	margin-left: 250px;
-	margin-top: 10px;
-}
-
-#consoleimg{
-	margin-left: 240px;
-	margin-top: 50px;
-}
-
-
-#larrow{
-padding-left: 270px;
-}
-
-#rarrow{
-
-}
-
+	margin-left: -80px;
+	margin-top: -25px;
+  }
+  
 #his{
   float: left;
   margin-right: 30px;
@@ -295,7 +343,7 @@ padding-left: 270px;
 	background: yellow;
 	font-size: 23px;
 	font-weight: bold;
-  background-color:lightskyblue;
+  background-color:red;
 
 }
 
@@ -318,3 +366,14 @@ padding-left: 270px;
 	padding-top:-2002px;
 }
 
+a:hover{
+	color:yellow;
+}
+
+.hover:hover{
+	color: yellow;
+}
+
+input{
+	text-align: center;
+}

@@ -18,11 +18,11 @@ body{
 
 #header{
     padding-top: 15px;
-    padding-bottom: -1000px;
-	height:120px;
+	margin-bottom:200px;
+	height:150px;
 	text-align:left;
 	color: black;
-	background-color:lightskyblue;
+	background-color:plum;
 	font-weight: bold;
 	font-size: 17px;
     padding-left: 100px;
@@ -137,10 +137,21 @@ li {
 	font-size: 20px;
 	font-weight: bold;
 	margin-left: -100px;
-	background-color: mistyrose;
+	background-color: lightcyan;
 
   border: 10px;
 }
+
+
+#content2{
+	clear: both;
+	font-size: 20px;
+	margin-left: -100px;
+	padding-bottom:60px;
+  background-color: lavender;
+  height: 600px;
+}
+
 
 #search{
 	padding-top: -200px;
@@ -150,20 +161,7 @@ li {
 
 }
 
-#content2{
-	text-align:left;
-	height:400px;
-	width: 1400px;
-	clear: both;
-	color: black;
-	font-size: 20px;
-	font-weight: bold;
-	margin-top: -200px;
-	margin-left: -100px;
-	padding-bottom:60px;
-  background-color: lavenderblush;
-  height: 600px;
-}
+
 
 #support{
 	font-size: 36px;
@@ -259,7 +257,7 @@ li {
 	float:left;
 	padding:10px;
 	margin-left: 230px;
-	margin-top: -50px;
+	margin-top: -60px;
 	color:blue;
 	font-size: 30px;
   padding-left: 880px;
@@ -272,14 +270,6 @@ li {
 }
 
 
-
-#larrow{
-padding-left: 270px;
-}
-
-#rarrow{
-
-}
 
 #his{
   float: left;
@@ -301,7 +291,7 @@ padding-left: 270px;
 	background: yellow;
 	font-size: 23px;
 	font-weight: bold;
-  background-color:lightskyblue;
+  background-color:plum;
   margin-left: -100px;
 
 }
