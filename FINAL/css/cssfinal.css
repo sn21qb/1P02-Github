@@ -104,20 +104,22 @@ li {
 }
 
 #text{
-	float:left;
-	width:295px;
+	float:right;
+	width:265px;
 	height: 200px;
-	padding:5px;
-	font-size: 7px;
+
+
 	padding-top: -25px;
 	color: black;
 	font-weight: bold;
- 	padding-left: -50px;
+ 	padding-left: 00px;
   	padding-top: 3px;
  	font-size: 20px;
 	padding-right: 50px;
   	background-color: lightblue;
 }
+
+
 
 #rightbody{
 	float:right;
