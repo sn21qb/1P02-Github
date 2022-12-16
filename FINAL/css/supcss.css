@@ -1,6 +1,7 @@
 
 * {
 	margin: 0;
+	font-family: "Lucida Console", Times, serif;
 }
 
 body{
@@ -16,28 +17,32 @@ body{
 	background-color:white;
 }
 
+
+/*HEADER*/
+
 #header{
     padding-top: 15px;
-	margin-bottom:200px;
-	height:150px;
 	text-align:left;
 	color: black;
 	background-color:plum;
 	font-weight: bold;
 	font-size: 17px;
     padding-left: 100px;
-
 	
 }
 
-h1{
+#support{ /*nav support*/
+	font-size: 36px;
+}
+
+h1{ /*grabbling hook title*/
     display: inline;
 	padding-top: 10px;
 	border:20px;
 	border-color: black;
   }
 
-#logo{
+#logo{ 
     float: left;
     margin-left: -90px;
     padding-top: -3000px;
@@ -62,9 +67,6 @@ li {
 
 #sign{
   	float:right;
-    /*margin-bottom:-100px;
-    margin-top:80px;
-    margin-right: 150px;*/
     margin: 0px;
     padding: 0px;
     padding-right: 50px;
@@ -80,52 +82,121 @@ li {
 	font-size: 20px;
 }
 
+a:hover{
+	color: red;
+}
+
+.hover:hover{
+	color: red;
+}
+
 #headertxt{
 	padding-top:30px;
 }
 
 
+/* FIRST BODY*/ 
 
-
-#rightbody{
-	float:right;
-	width:1000px;
-	height:470px;
-	background:#FFFF99;
-	padding:5px;
-	padding-top: 25px;
-	background-color: blue;
-	font-size: 23px;
-	color: black;
-	font-weight: bold;
- 	background-color:white;
- 	position: relative;
- 	text-align: center;
-	color: white;
+#content2{ /*pick*/
+	clear: both;
+	font-size: 20px;
+	margin-left: -100px;
+	padding-bottom:60px;
+  background-color: lavender;
+  height: 600px;
 }
 
+#search{ /*search bar*/
+	padding-top: -200px;
+	padding-left: 10px;
+	padding-bottom: 200px;
 
-#contact2{
+}
+
+#help{ /*the title of page*/
 	float:left;
 	padding:10px;
-	margin-top:65px;
+	margin-left: -400px;
+	margin-top:70px;
 	color:black;
 	font-size: 40px;
-  padding-left: 130px;
+  padding-left: 780px;
 }
 
-#contact1{
-	padding-left: 170px;
-	padding-top: 40px;
+#view{ /*click here to view more*/
+	float:left;
+	padding:10px;
+	margin-left: -95px;
+	margin-top:50px;
+	color:black;
+	font-size: 23px;
+  padding-left: 665px;
+}
+
+#computer{ /*login text*/
+	float:left;
+	padding-bottom:100px;
+	padding:10px;
+	margin-left: -155px;
+	margin-top:350px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 665px;
+}
+
+#mobileimg{ /*login img*/
+	margin-left: 74px;
+	margin-top: 0px;
+}
+
+#computerimg{ /*history*/
+	margin-left: -1230px;
+	margin-top: -200px;
+	padding-top: 270px;
+}
+
+#mobile{ /*history text*/
+	float:left;
+	padding:10px;
+	margin-left: -430px;
+	margin-top:-19px;
+	color:blue;
+	font-size: 30px;
+}
+
+#console{ /*FAQ text*/
+	float:left;
+	padding:10px;
+	margin-left: -55px;
+	margin-top: -90px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 900px;
+}
+
+#consoleimg{ /*FAQ img*/
+	margin-left: 80px;
+	padding-bottom:15px;
+
+}
+
+#repimg{ /*report img*/
+	margin-left: 1100px;
+	margin-top: -240px;
+}
+
+#report{ /*report text*/
+	float:left;
+	padding:10px;
+	margin-left: 230px;
+	margin-top: -60px;
+	color:blue;
+	font-size: 30px;
+  padding-left: 880px;
 }
 
 
-.down{
-	color: lightgreen;
-	font-weight: bold;
-}
-
-
+/* SECOND BODY*/
 
 #content1{
 	text-align:left;
@@ -138,152 +209,39 @@ li {
 	font-weight: bold;
 	margin-left: -100px;
 	background-color: lightcyan;
-
-  border: 10px;
 }
 
-
-#content2{
-	clear: both;
-	font-size: 20px;
-	margin-left: -100px;
-	padding-bottom:60px;
-  background-color: lavender;
-  height: 600px;
-}
-
-
-#search{
-	padding-top: -200px;
-	margin-right: -200px;
-	padding-bottom: 200px;
-	padding-left: 60px;
+#contact1{  /*cant find what youre looking for text*/
+	float:right;
+	padding-top:40px;
+	padding-right: 80px;
 
 }
 
-
-
-#support{
-	font-size: 36px;
-}
-
-#menu1{
+#contact2{ /* phone img */
 	float:left;
-	padding:5px;
-	margin-left: -240px;
-	margin-top:200px;
-	color:black;
-	font-size: 30px;
-  padding-left: 800px;
-}
-
-#help{
-	float:left;
-	padding:10px;
-	margin-left: -400px;
-	margin-top:70px;
+	padding-top:100px;
 	color:black;
 	font-size: 40px;
-  padding-left: 860px;
+  	padding-left: 80px;
 }
 
-#view{
-	float:left;
-	padding:10px;
-	margin-left: -95px;
-	margin-top:50px;
-	color:black;
-	font-size: 23px;
-  padding-left: 665px;
+#bigbutton{  /*click here button*/
+ 	/*https://medium.com/the-clever-dev/change-button-font-size-with-javascript-or-css-2-easy-ways-6cbdd0df9a04 accessed on 12/11/2022*/
+	font-size: 35px;
+ 	border-radius: 4px;
+  	background-color: #1e73be;
+ 	color: white;
+  	padding: 6px 12px;
+  	cursor: pointer;
+  	border: 4px solid #1e80be;
+  	width: 200px;
+  	margin: 12px;
 }
 
-#computer{
-	float:left;
-	padding-bottom:100px;
-	padding:10px;
-	margin-left: -155px;
-	margin-top:350px;
-	color:blue;
-	font-size: 30px;
-  padding-left: 665px;
-}
+/* FOOTER */
 
-#computerimg{
-	margin-left: -1099px;
-	margin-top: -200px;
-	padding-top: 270px;
-	padding-left: 50px;
-
-}
-
-
-#mobile{
-	float:left;
-	padding:10px;
-	margin-left: -430px;
-	margin-top:-19px;
-	color:blue;
-	font-size: 30px;
-}
-
-
-#mobileimg{
-	margin-left: 100px;
-	margin-top: 0px;
-}
-
-
-#console{
-	float:left;
-	padding:10px;
-	margin-left: -55px;
-	margin-top: -90px;
-	color:blue;
-	font-size: 30px;
-  padding-left: 900px;
-}
-
-#consoleimg{
-	margin-left: 100px;
-	margin-top: -85px;
-}
-
-#repimg{
-	margin-left: 1100px;
-	margin-top: -240px;
-}
-
-#report{
-	float:left;
-	padding:10px;
-	margin-left: 230px;
-	margin-top: -60px;
-	color:blue;
-	font-size: 30px;
-  padding-left: 880px;
-}
-
-
-#mario{
-  margin-left: -80px;
-  margin-top: -30px;
-}
-
-
-
-#his{
-  float: left;
-  margin-right: 30px;
-  margin-top: 25px;
-  margin-left: 12px;
-  font-size: 20px;
-  margin-bottom:100px;
-  padding-bottom: 20px;
-}
-
-
-
-#footer{
+#footer{ 
 	text-align:left;
 	height:79px;
 	clear:both;
@@ -296,41 +254,19 @@ li {
 
 }
 
-#insta{
-	padding-left: 917px;
-	padding-top:12px;
+#name{ /*social media @*/
+  float: left;
+  margin-top: 25px;
+  margin-left: 22px;
+  font-size: 25px;
 }
 
-#twitter{
 
-	padding-left: 980px;
-	padding-top:-600px;
-	margin-top:-50px;
+#socials {
+	padding-top: 15px;
+	float:right;
+	flex: 15%;
+	padding-right:20px;
 }
 
-#fb{
-	float: right;
-	padding-right: 20px;
-	margin-top:-50px;
-	padding-top:-2002px;
-}
 
-a:hover{
-	color: red;
-}
-
-.hover:hover{
-	color: red;
-}
-
-#bigbutton{   /*https://medium.com/the-clever-dev/change-button-font-size-with-javascript-or-css-2-easy-ways-6cbdd0df9a04 accessed on 12/11/2022*/
-	font-size: 35px;
- 	border-radius: 4px;
-  	background-color: #1e73be;
- 	color: white;
-  	padding: 6px 12px;
-  	cursor: pointer;
-  	border: 4px solid #1e80be;
-  	width: 200px;
-  	margin: 12px;
-}

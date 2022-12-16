@@ -17,6 +17,8 @@ body{
 	background-color:white;
 }
 
+/* HEADER */
+
 #header{
     padding-top: 15px;
     padding-bottom: -1000px;
@@ -27,8 +29,14 @@ body{
 	font-weight: bold;
 	font-size: 17px;
     padding-left: 100px;
+}
 
-	
+#logo{
+    float: left;
+    margin-left: -90px;
+    padding-top: -3000px;
+    padding-right: 13px;
+	display: inline;
 }
 
 h1{
@@ -38,13 +46,7 @@ h1{
 	border-color: black;
   }
 
-#logo{
-    float: left;
-    margin-left: -90px;
-    padding-top: -3000px;
-    padding-right: 13px;
-	display: inline;
-}
+
 
 ul {
   list-style-type: none;
@@ -63,9 +65,6 @@ li {
 
 #sign{
   	float:right;
-    /*margin-bottom:-100px;
-    margin-top:80px;
-    margin-right: 150px;*/
     margin: 0px;
     padding: 0px;
     padding-right: 50px;
@@ -85,9 +84,21 @@ li {
 	font-size: 36px;
 }
 
+a:hover{
+	color: red;
+}
+
+.hover:hover{
+	color: red;
+}
+
+
 #headertxt{
 	padding-top:30px;
 }
+
+
+/* LEFT BODY */
 
 #leftbody{
 	float:left;
@@ -107,19 +118,20 @@ li {
 	float:right;
 	width:265px;
 	height: 200px;
-
-
-	padding-top: -25px;
 	color: black;
 	font-weight: bold;
- 	padding-left: 00px;
-  	padding-top: 3px;
+  	padding-top: 45px;
  	font-size: 20px;
-	padding-right: 50px;
   	background-color: lightblue;
 }
 
+#move{
+	padding-lefT:20px;
+	padding-top:20px;
+}
 
+
+/* RIGHT BODY */
 
 #rightbody{
 	float:right;
@@ -136,6 +148,12 @@ li {
 	color: white;
 }
 
+#mario{
+	margin-left: -80px;
+	margin-top: -25px;
+  }
+  
+
 .centered { /*https://medium.com/the-clever-dev/change-button-font-size-with-javascript-or-css-2-easy-ways-6cbdd0df9a04 accessed on 12/11/2022*/
 	position: absolute;
 	top:200px;
@@ -146,11 +164,24 @@ li {
 	font-weight: 400;
 }
 
+#imgid{
+	padding-top:-200px;
+	margin-top: -320px;
+	margin-left:640px;
+}
+
+#buttons{
+	margin-left: 500px;
+	margin-top: -20px;
+}
 
 #download{
 	font-size: 30px;
 	color: black
 }
+
+
+/* CONTENT */
 
 #content{
 	text-align:left;
@@ -165,33 +196,6 @@ li {
   background-color: lightyellow;
 
   border: 10px;
-}
-
-#menu{
-  margin-top: 520px;
-  margin-left:500px;
-	text-align:left;
-	height:50px;
-	width: 420px;
-	clear: both;
-	background: grey;
-	color: black;
-	font-size: 29px;
-	font-weight: bold;
-	padding-top:20px;
-
-  text-align:center;
-  background-color: red;
-}
-
-#menu1{
-	float:left;
-	padding:5px;
-	margin-left: -240px;
-	margin-top:200px;
-	color:black;
-	font-size: 30px;
-  padding-left: 800px;
 }
 
 #platform{
@@ -238,20 +242,11 @@ li {
 }
 
 
-
 #computerimg{
 	margin-left: -780px;
 	margin-top: -280px;
 	padding-top: 260px;
-
-
 }
-
-#mario{
-  margin-left: -80px;
-  margin-top: -25px;
-}
-
 
 #mobileimg{
 	margin-left: 250px;
@@ -264,66 +259,38 @@ li {
 }
 
 
-
-#his{
-  float: left;
-  margin-right: 30px;
-  margin-top: 25px;
-  margin-left: 12px;
-  font-size: 20px;
-  margin-bottom:100px;
-  padding-bottom: 20px;
-}
-
+/* FOOTER */
 
 
 #footer{
 	text-align:left;
-	height:79px;
+	height:auto;
 	clear:both;
 	color: black;
 	background: yellow;
 	font-size: 23px;
 	font-weight: bold;
-  background-color:lightskyblue;
-
+  	background-color:lightskyblue;
+	display: flex;
+	padding:10px;
 }
 
-#insta{
-	padding-left: 917px;
-	padding-top:12px;
+#his {
+	display: block;
+	padding-top:15px;
+	padding-left:10px;
 }
 
-#twitter{
 
-	padding-left: 980px;
-	padding-top:-600px;
-	margin-top:-50px;
+#grappling {
+	flex: 85%;
 }
 
-#fb{
-	float: right;
-	padding-right: 20px;
-	margin-top:-50px;
-	padding-top:-2002px;
+
+#socials {
+	flex: 15%;
+	padding-left:100px;
 }
 
-#imgid{
-	padding-top:-200px;
-	margin-top: -320px;
-	margin-left:640px;
-}
 
-#buttons{
-	margin-left: 500px;
-	margin-top: -20px;
-}
-
-a:hover{
-	color: red;
-}
-
-.hover:hover{
-	color: red;
-}
 

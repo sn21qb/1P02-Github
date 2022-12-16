@@ -1,376 +1,350 @@
+/* GENERAL STYLES */
+
 * {
 	margin: 0;
+	font-family: "Lucida Console", Times, serif;
 }
 
-body{
-	color:blue;
-	background-color:white;
+body {
+	color: blue;
+	background-color: white;
 }
 
 
-#wrapper{
-	width:1400px;
-	height:920px;
-	margin:0 auto;
-	background-color:white;
+#wrapper {
+	width: 1400px;
+	height: 920px;
+	margin: 0 auto;
+	background-color: white;
 }
 
-#header{
-    padding-top: 15px;
-    padding-bottom: -1000px;
-	height:120px;
-	text-align:left;
+
+/* HEADER */
+
+#header {
+	padding-top: 15px;
+	padding-bottom: -1000px;
+	height: 120px;
+	text-align: left;
 	color: black;
 	background-color: red;
 	font-weight: bold;
 	font-size: 17px;
-    padding-left: 100px;
+	padding-left: 100px;
 }
 
 
 
-h1{
-    display: inline;
+h1 {
+	display: inline;
 	padding-top: 10px;
-	border:20px;
+	border: 20px;
 	border-color: black;
-  }
+}
 
-#logo{
-    float: left;
-    margin-left: -90px;
-    padding-top: -3000px;
-    padding-right: 13px;
+#logo {
+	float: left;
+	margin-left: -90px;
+	padding-top: -3000px;
+	padding-right: 13px;
 	display: inline;
 }
 
 ul {
-  list-style-type: none;
-  margin: 0;
-  padding:0;
-  font-size: 24px;
-  display: inline;
-  padding-left: 10px;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	display: inline;
+	padding-left: 10px;
 
 }
 
 li {
-  display: inline;
-  margin-bottom:-100px;
+	display: inline;
+	margin-bottom: -100px;
 }
 
-#sign{
-  	float:right;
-    /*margin-bottom:-100px;
-    margin-top:80px;
-    margin-right: 150px;*/
-    margin: 0px;
-    padding: 0px;
-    padding-right: 50px;
-    font-size: 20px;
-	padding-top:8px;
+#sign {
+	float: right;
+	margin: 0px;
+	padding: 0px;
+	padding-right: 50px;
+	font-size: 20px;
+	padding-top: 8px;
 }
 
-#login{
-  	float:right;
+#login {
+	float: right;
 	margin: 8px;
 	padding: 0px;
 	padding-right: 30px;
 	font-size: 20px;
 }
 
-#bigsupp{
+#bigsupp {
 	font-size: 36px;
 }
 
-#headertxt{
-	padding-top:30px;
+#headertxt {
+	padding-top: 30px;
 }
 
-#leftbody{
-	float:left;
-	width:280px;
+
+/* LEFT BODY */
+
+#leftbody {
+	float: left;
+	width: 280px;
 	height: 460px;
 	color: black;
 	font-weight: bold;
-  	padding-left: 50px;
+	padding-left: 50px;
 	padding-top: 40px;
-  	font-size: 30px;
-  	background-color:salmon;
+	font-size: 30px;
+	background-color: salmon;
 }
 
-#text{
-	float:left;
+#text {
+	float: left;
 	padding-right: 20px;
 	color: black;
 	font-weight: bold;
-  	padding-top: -30px;
- 	font-size: 30px;
+	padding-top: -30px;
+	font-size: 30px;
 }
 
-#texttwo{
+#texttwo {
 	padding-bottom: -70px;
-	padding-right: 20px; 
-	font-size: 55px;
+	font-size: 40px;
 
 }
 
+a:hover {
+	color: yellow;
+}
 
-#rightbody{
-	float:right;
-	width:1000px;
-	height:470px;
-	padding:5px;
+.hover:hover {
+	color: yellow;
+}
+
+
+/* RIGHT BODY */
+
+#rightbody {
+	float: right;
+	width: 1000px;
+	height: 470px;
+	padding: 5px;
 	padding-top: 25px;
 	font-size: 23px;
 	color: black;
 	font-weight: bold;
- 	position: relative;
- 	text-align: center;
-
+	position: relative;
+	text-align: center;
 }
 
-#centered{
-	position: absolute;
-	top:40%;
-	left: 30%;
-	transform: translate(-17%, -50%);
-	font-size: 40px;
-	padding-left:20px;
-	font-weight: 400;
-}
-
-#but{   /*https://medium.com/the-clever-dev/change-button-font-size-with-javascript-or-css-2-easy-ways-6cbdd0df9a04 accessed on 12/11/2022*/
-
-	padding-top: -100px;
-
-}
-
-button{
-	margin-top:-36px;
+#mario {
+	margin-left: -80px;
+	margin-top: -25px;
 }
 
 
-.down{
-	color: lightgreen;
-	font-weight: bold;
-}
+/* CONTENT 1 */
 
-
-#content1{
-	text-align:left;
-	height:320px;
+#content1 {
+	text-align: left;
+	height: 320px;
 	width: 1400px;
 	clear: both;
 	background: blue;
 	color: black;
 	font-size: 20px;
 	font-weight: bold;
-  	background-color: peachpuff;
-
+	background-color: peachpuff;
 }
 
-#content2{
-	background: papayawhip;
-	height:320px;
+#item1 { /*monopoly board*/
+	padding-top: 40px;
+	padding-left: 50px;
+	padding-bottom: 20px;
 }
 
-#content3{
-	background: peachpuff;
-	height: 320px;
+#item2 { /*game package*/
+	margin-top: -310px;
+	padding-left: 1040px;
 }
 
-#content4{
-	background: papayawhip;
-	height: 320px;
-}
-
-#content5{
-	padding-top:50px;
-	background: peachpuff;
-	height: 240px;
-	padding-left: 370px;
-}
-
-#menu{
-  margin-top: 520px;
-  margin-left:500px;
-	text-align:left;
-	height:50px;
-	width: 420px;
-	clear: both;
-	background: grey;
+#text1 { /*new arrivals */
+	float: left;
+	padding-top: 147px;
 	color: black;
-	font-size: 29px;
-	font-weight: bold;
-	padding-top:20px;
-
-  text-align:center;
-  background-color: red;
-}
-
-#menu1{
-	float:left;
-	padding:5px;
-	margin-left: -240px;
-	margin-top:200px;
-	color:black;
-	font-size: 30px;
-  padding-left: 800px;
-}
-
-
-#text1{
-	float:left;
-	padding-top:147px;
-	color:black;
 	font-size: 30px;
 	padding-left: 70px;
 }
 
-#text2{
-	float:right;
-	padding-top:147px;
-	color:black;
+#text2 { /*click more*/
+	float: right;
+	padding-top: 147px;
+	color: black;
 	font-size: 30px;
 	padding-right: 360px;
 }
 
-.text3{
-	float:right;
-	padding-top:147px;
-	color:black;
+
+/* CONTENT 2 */
+
+#content2 { 
+	background: papayawhip;
+	height: 320px;
+}
+
+#item3 { /*luigi*/
+	margin-top: -270px;
+	padding-left: 970px;
+}
+
+#item4 { /*mario*/
+	padding-top: 35px;
+	padding-left: 270px;
+	padding-bottom: 20px;
+}
+
+.text3 { /*sale & click here*/
+	float: right;
+	padding-top: 147px;
+	color: black;
 	font-size: 30px;
-	padding-right: 520px;
+	padding-right: 480px;
 	font-weight: bold;
 	text-align: center;
 }
 
-#text5{
-	float:right;
-	padding-top:147px;
-	color:black;
+
+/* CONTENT 3 */
+
+#content3 { 
+	background: peachpuff;
+	height: 320px;
+}
+
+#item5 { /*hoodie*/
+	padding-top: 10px;
+	padding-left: 30px;
+	padding-bottom: 20px;
+}
+
+#item6 { /*shirt*/
+	margin-top: -300px;
+	padding-left: 1040px;
+}
+
+#text5 { /*click more*/
+	float: right;
+	padding-top: 147px;
+	color: black;
 	font-size: 30px;
 	padding-right: 380px;
 	font-weight: bold;
-	
+
 }
 
-#text6{
-	float:left;
-	padding-top:147px;
-	color:black;
+#text6 { /*best sellers*/
+	float: left;
+	padding-top: 147px;
+	color: black;
 	font-size: 30px;
 	padding-left: 100px;
 	font-weight: bold;
 }
 
-#item1{
-	padding-top:40px;
-	padding-left: 50px;
-    padding-bottom: 20px;
 
+
+/* CONTENT 4 */
+
+#content4 { 
+	background: papayawhip;
+	height: 320px;
 }
 
-#item2{
-
-	margin-top: -310px;
-	padding-left:1040px;
-}
-
-#item3{
-
-	margin-top: -270px;
-	padding-left:970px;
-}
-
-#item4{
-	padding-top:30px;
-	padding-left: 270px;
-    padding-bottom: 20px;
-
-}
-
-#item5{
-	padding-top:10px;
-	padding-left: 30px;
-    padding-bottom: 20px;
-}
-
-#item6{
-	margin-top: -300px;
-	padding-left:1040px;
-}
-
-#item7{
-
+#item7 { /*backpack*/
+	float: right;
 	margin-top: -260px;
-	padding-left:970px;
+	padding-right: 180px;
 }
 
-#item8{
-	padding-top:70px;
-	padding-left: 270px;
-    padding-bottom: 20px;
-
+#item8 { /*cup*/
+	padding-top: 70px;
+	padding-left: 230px;
+	padding-bottom: 20px;
 }
 
-#mario{
-	margin-left: -80px;
-	margin-top: -25px;
-  }
-  
-#his{
-  float: left;
-  margin-right: 30px;
-  margin-top: 25px;
-  margin-left: 12px;
-  font-size: 20px;
-  margin-bottom:100px;
-  padding-bottom: 20px;
+#text4 { /*products*/
+	float: right;
+	padding-top: 150px;
+	margin-bottom: 50px;
+	color: black;
+	font-size: 30px;
+	padding-right: 470px;
+	font-weight: bold;
+	text-align: center;
 }
 
 
+/* CONTENT 5 */
 
-#footer{
-	text-align:left;
-	height:79px;
-	clear:both;
+#content5 {
+	padding-top: 50px;
+	background: peachpuff;
+	height: 240px;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.options { /*checkboxes and printbutton*/
+	margin-top: 10px;
+	font-size: 20px;
+}
+
+
+/* FOOTER */
+
+#footer {
+	text-align: left;
+	height: auto;
+	clear: both;
 	color: black;
 	background: yellow;
 	font-size: 23px;
 	font-weight: bold;
-  background-color:red;
-
+	background-color: red;
+	padding: 20px;
+	display: flex;
 }
 
-#insta{
-	padding-left: 917px;
-	padding-top:12px;
+#grappling {
+	flex: 85%;
 }
 
-#twitter{
-
-	padding-left: 980px;
-	padding-top:-600px;
-	margin-top:-50px;
+#socials {
+	flex: 15%;
+	padding-left:100px;
 }
 
-#fb{
-	float: right;
-	padding-right: 20px;
-	margin-top:-50px;
-	padding-top:-2002px;
+#but { /*info button*/
+	/*https://medium.com/the-clever-dev/change-button-font-size-with-javascript-or-css-2-easy-ways-6cbdd0df9a04 accessed on 12/11/2022*/
+	margin-top: 20px;
 }
 
-a:hover{
-	color:yellow;
+.options { /*checkboxes & print button*/
+	margin-top: 10px;
+	font-size: 20px;
 }
 
-.hover:hover{
-	color: yellow;
+#name { /*social media @*/
+	display: block;
 }
 
-input{
+input { 
 	text-align: center;
 }
